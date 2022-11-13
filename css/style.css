@@ -46,11 +46,22 @@ body {
 
 .price {
     color: white;
-    font-size: xx-large;
+    font-size: x-large;
+    display: inline;
+    font-weight: 700;
 }
 
-span {
-    font-size: medium;
+.price_frequency {
+    margin-bottom: .5em;
+}
+
+.frequency {
+    position: relative;
+    bottom: .4em;
+    color: hsl(204, 43%, 93%);
+    display: inline;
+    font-size: small;
+    margin-left: .5em;
 }
 
 .price_info {
@@ -64,6 +75,11 @@ button {
     color: white;
     font-size: medium;
     font-weight: 700;
+    box-shadow: 1px 1px 5px gray;
+}
+
+button:hover, button:focus {
+    opacity: .7;
 }
 
 .section_3 {
@@ -92,7 +108,7 @@ button {
     }
 
     .section_1__h1 {
-        margin-bottom: 1em;
+        margin-bottom: 1.5em;
     }
 
     .section_1__h2 {
@@ -121,22 +137,14 @@ button {
         margin-bottom: 1em;
     }
 
-    .price {
-        margin-bottom: .3em;
-    }
-
-    span {
-        margin-left: .7em;
-    }
-
     .price_info {
         font-size: small;
-        padding-bottom: 2em;
+        padding-bottom: 2.8em;
     }
 
     button {
         font-size: small;
-        padding: 1em 6em;
+        padding: 1.2em 6em;
     }
 
     .section_3 {
@@ -181,14 +189,6 @@ button {
 
     .subscription {
         margin-bottom: 1.2em;
-    }
-
-    .price {
-        padding-bottom: .2em;
-    }
-
-    span {
-        margin-left: .5em;
     }
 
     .price_info {
